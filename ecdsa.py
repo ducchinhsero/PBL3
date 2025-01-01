@@ -171,7 +171,8 @@ class ECDSAApp(QtWidgets.QWidget):
             with open(key_path, 'w') as key_file:
                 key_file.write(f"Private Key: {self.private_key}\nPublic Key: {self.public_key}")
 
-            QMessageBox.information(self, "Success", f"File signed and saved successfully. Keys saved to {key_path}.")
+            QMessageBox.information(self, "Success", "File signed and saved successfully. Keys saved to the same folder.")
+
 
     def import_signed_file(self):
         options = QFileDialog.Options()
