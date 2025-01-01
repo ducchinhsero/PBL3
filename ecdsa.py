@@ -2,7 +2,7 @@ import os
 import hashlib
 from PyQt5 import QtWidgets, QtCore
 from PyQt5.QtWidgets import QFileDialog, QMessageBox, QVBoxLayout, QHBoxLayout, QTextEdit, QPushButton, QLabel, QWidget
-
+#xac nhan chuan file upload Github hehe
 # Định nghĩa các hằng số cho SECP256k1
 N = 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFEBAAEDCE6AF48A03BBFD25E8CD0364141
 Prime = 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFEFFFFFC2F
